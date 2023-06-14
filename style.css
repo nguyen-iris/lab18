@@ -1,0 +1,36 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(img1.jpg);
+  height: 650px;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(img2.jpg);
+  height: 650px;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(img3.jpg);
+  height: 650px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 50px 30px 50px;
+  font-size: 14px;
+}
+footer ul {
+  display: flex;
+  gap: 40px;
+}
+.foot-left {
+  display: flex;
+}
